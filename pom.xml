@@ -84,6 +84,9 @@
     <log4j.debug>false</log4j.debug>
     <log4j.level>info</log4j.level>
 
+    <!-- estudy version -->
+    <org.estudy>1.0-SNAPSHOT</org.estudy>
+    
     <!-- ************** -->
     <!-- Build settings -->
     <!-- ************** -->

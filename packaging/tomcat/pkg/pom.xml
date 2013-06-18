@@ -503,6 +503,13 @@
       <groupId>org.gatein.portal</groupId>
       <artifactId>exo.portal.packaging.common</artifactId>
     </dependency>
+    <!-- estudy application-->
+    <dependency>
+      <groupId>org.estudy</groupId>
+      <artifactId>estudy-service</artifactId>
+      <version>${org.estudy}</version>
+    </dependency>
+
     <!--
     <dependency>
       <groupId>org.gatein.portal</groupId>
@@ -882,6 +889,14 @@
       <?rename redirect-portlet.war?>
       <groupId>org.gatein.portal.portlet</groupId>
       <artifactId>redirect</artifactId>
+      <type>war</type>
+    </dependency>
+    <!-- estudy webapp-->
+    <dependency>
+      <?rename estudy.war?>
+      <groupId>org.estudy</groupId>
+      <artifactId>estudy-ui</artifactId>
+      <version>${org.estudy}</version>
       <type>war</type>
     </dependency>
 
